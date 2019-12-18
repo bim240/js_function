@@ -42,12 +42,57 @@ convertToString(21); // "21"
  * @param {number} n
  * @return {number}
  */
+//Function Decleration
+function add(n) {
+  return n+1;
+}
+
+// Function Expression
+let sum = function(n) {
+  return n+1;
+};
+
+// Arrow Function
+let sum = n => n+1;
+
+// Arrow Function With Curly Bracket
+
+let sum = n => {
+  return n+1;
+};
+
+// Function Invocation
+
+add(21); // "22"
+
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
+//Function Decleration
+function subtract(n) {
+  return n-1;
+}
+
+// Function Expression
+let subtract = function(n) {
+  return n-1;
+};
+
+// Arrow Function
+let subtract = n => n-1;
+
+// Arrow Function With Curly Bracket
+
+let subtract = n => {
+  return n-1;
+};
+
+// Function Invocation
+
+subtract(21); // "20"
 
 /**
  * Adds two numbers.
@@ -55,13 +100,56 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the sum
  */
+//Function Decleration
+function add2num(a, b) {
+  return a + b;;
+}
 
+// Function Expression
+let sum2num = function(a, b) {
+  return a + b;;
+};
+
+// Arrow Function
+let sum2num = (a, b) => a + b;
+
+// Arrow Function With Curly Bracket
+
+let sum2num = (a, b) => {
+  return a + b;
+};
+
+// Function Invocation
+
+add(20,  30); // "50"
 /**
  * Subtracts the second number from the first.
  * @param {number} x
  * @param {number} y
  * @return {number} the difference
  */
+//Function Decleration
+function subtract2num(a, b) {
+  return b - a;
+}
+
+// Function Expression
+let subtract2num = function(a, b) {
+  return b - a;
+};
+
+// Arrow Function
+let subtract2num = (a, b) => b - a;
+
+// Arrow Function With Curly Bracket
+
+let subtract2num = (a, b) => {
+  return b - a;
+};
+
+// Function Invocation
+
+subtract(21, 30); // "9"
 
 /**
  * Multiplies two numbers.
